@@ -36,7 +36,24 @@ console.log(Object.keys(newUser));
 console.log(Object.values(newUser));
 console.log(newUser.hasOwnProperty("firstName:"));
 
+const course = {
+    name : "js",
+    price: "999",
+    teacher: "SHubham"
+}
 
+const {teacher : t1} = course
+
+console.log(t1);
+
+
+// {
+//     'name' : "SHubham",
+//     "course" : "js",
+//     "price" : "999"
+// }
+
+ 
 
 
 
